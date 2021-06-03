@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> Voting Form</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Voting Form</h1>
+      <form id="formvot">
+        <h3>You can Fill the form for Voting:</h3>
+        <div class="form-group">
+          <div class="row row justify-content-center">
+            <div class="col-4">
+              <label for="id">Id No:</label>
+                <input id="id" class="form-control" type="number">
+            </div>
+          </div>
+        </div>    
+        <div class="form-group">
+          <div class="row row justify-content-center">
+            <div class="col-4">
+              <label for="name"> Full Name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>    
+        <div class="form-group">
+          <div class="row row justify-content-center">
+            <div class="col-4">
+              <label for="age">age:</label>
+              <input id="age" class="form-control" type="number">
+            </div>
+          </div>
+        </div>    
+        <div class="form-group">
+          <div class="row row justify-content-center">
+            <div class="col-4">
+              <label for="add">Address:</label>
+              <input id="add" class="form-control" type="text">
+            </div>
+          </div>    
+        </div>
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+  </div>
+  <div id="eligibal">
+    <div class="row row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              <ul>
+                <li>You are eligibal for voting</li>
+                <li><a href="file:///C:/Users/rao34/Desktop/appioment/index.html">Go To</a></li>
+              </ul> 
+            </p>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>  
+  <div id="not-eligibal">
+    <div class="row row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              <ul>
+                <li>Sorry,<br>You are not eligibal for Voting </li>
+                <li><a href="https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-may-2021">For more info Go To</a></li>
+              </ul> 
+            </p>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>  
+  </body>
+  </html>
